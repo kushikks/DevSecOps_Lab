@@ -1,9 +1,13 @@
 {
-  "name": "weather-app",
+  "name": "devsecops-lab",
   "version": "1.0.0",
-  "description": "Secure Weather App",
+  "description": "Weather + Multi-language CI Lab",
   "main": "app.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest",
+    "weather": "node app.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
